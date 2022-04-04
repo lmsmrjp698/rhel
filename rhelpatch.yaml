@@ -1,4 +1,4 @@
-- hosts: '10.0.2.15'
+- hosts: rhel8.2
   become: true
 
   tasks:
