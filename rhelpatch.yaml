@@ -1,4 +1,4 @@
-- hosts: 10.0.2.15
+- hosts: '10.0.2.15'
   become: true
 
   tasks:
