@@ -1,7 +1,6 @@
-- name : RHEL OS Patch
-  hosts: rhel8.2
-  become: true
+- name: Hello World!
+  hosts: all
   tasks:
-    - name: ping
-      ping:
 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working!"
