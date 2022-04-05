@@ -1,4 +1,4 @@
-- hosts: rhel8.2
+- hosts: all
   become: true
 
   tasks:
