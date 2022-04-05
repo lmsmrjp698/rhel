@@ -1,6 +1,7 @@
 - name : RHEL OS Patch
   hosts: all
   become: true
+  ansible_facts: false
   tasks:
     - name: ping
       ping:
