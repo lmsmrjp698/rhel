@@ -1,5 +1,5 @@
 - name : RHEL OS Patch
-  hosts: all
+  hosts: rhel8.2
   become: true
   gather_facts: false
   tasks:
