@@ -1,5 +1,5 @@
 - name: Hello World!
-  hosts: all
+  hosts: rhel8
   tasks:
 
   - name: Hello World!
