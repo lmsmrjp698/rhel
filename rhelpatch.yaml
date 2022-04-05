@@ -1,5 +1,7 @@
 - name: Hello World!
   hosts: rhel8
+  gather_facts: false
+  connection: local
   tasks:
 
   - name: Hello World!
