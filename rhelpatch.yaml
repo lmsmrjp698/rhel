@@ -1,7 +1,6 @@
 - name : RHEL OS Patch
   hosts: rhel8.2
   become: true
-  become_ask_pass: true
   tasks:
     - name: ping
       ping:
