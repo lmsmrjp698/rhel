@@ -1,5 +1,5 @@
 - name: ping test
-  hosts: all
+  hosts: ospatch
   tasks:
   - name: Hello World
     shell: echo "Hello World"
