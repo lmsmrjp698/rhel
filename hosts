@@ -1,1 +1,2 @@
+[ospatch]
 ospatch ansible_host=ospatch.test.local
